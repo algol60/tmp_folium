@@ -1,5 +1,5 @@
 /**
- * Minified by jsDelivr using Terser v5.19.2.
+ * Minified by jsDelivr using Terser v5.37.0.
  * Original file: /npm/leaflet-polylineoffset@1.1.1/leaflet.polylineoffset.js
  *
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files

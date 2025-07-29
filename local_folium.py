@@ -95,6 +95,19 @@ def url_to_name(u):
     if not u.startswith('https://'):
         raise ValueError('Convert a URL, not "{u}"')
 
+    # "leaflet.css" is used to determine file locations.
+    # "marker*.png" are hard-coded.
+    # Don't rename these.
+    #
+    if u.endswith((
+        'leaflet.css',
+        'marker-icon.png',
+        'marker-icon-2x.png',
+        'marker-shadow.png'
+        )):
+        print(f'UNCHANGED: {u}')
+        return u[u.rindex('/')+1:]
+
     name = sha1(u.encode('UTF-8')).hexdigest()
 
     suffix = Path(u).suffix
@@ -161,8 +174,7 @@ class UrlModifier:
 
         for old_u, name in dict(self.url_map).items():
             if name.endswith('.css'):
-                print(old_u)
-                print(name)
+                print(f'CSS: {old_u}\n{name}')
                 with (local_dir / name).open(encoding='UTF-8') as f:
                     text = ''.join(f.readlines())
 
@@ -197,6 +209,15 @@ class UrlModifier:
                             download_file(u2, local_dir, name2)
                             self.url_map[u2] = name2
 
+                            # If this is the marker icon, also fetch the other two marker icons.
+                            #
+                            if name2=='marker-icon.png':
+                                for also_name in ['marker-icon-2x.png', 'marker-shadow.png']:
+                                    also_u = u2.replace('marker-icon.png', also_name)
+                                    print(f'ADD: {also_u}\n{also_name}')
+                                    download_file(also_u, local_dir, also_name)
+                                    self.url_map[also_u] = also_name
+
                         text = f'{text[:b]}{PLACEHOLDER}/{name2}{text[e:]}'
 
                         matched = True
@@ -212,7 +233,7 @@ class UrlModifier:
 
     def download_from_py(self, local_dir):
         for old_u, name in self.url_map.items():
-            print(f'{old_u}\n{name}\n')
+            print(f'DOWNLOAD PY: {old_u}\n{name}\n')
 
             download_file(old_u, local_dir, name)
 
@@ -264,6 +285,7 @@ def _replace(args):
     url = args.url.rstrip('/') + '/'
 
     replace(folium_p, '**/*.py', url)
+    # replace(local_dir_p, '**/*.css', url)
 
     # # In CSS files we can use relative URLs.
     # #

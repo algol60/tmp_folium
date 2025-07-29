@@ -399,7 +399,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 /* Default icon URLs */
 .leaflet-default-icon-path { /* used only in path-guessing heuristic, see L.Icon.Default */
-	background-image: url(__mystery://placeholder__/7f2cd7256b360142a9075de39898236587d17363.png);
+	background-image: url(__mystery://placeholder__/marker-icon.png);
 	}
 
 

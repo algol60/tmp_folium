@@ -21,13 +21,13 @@
         <link href="https://static.ietf.org/fonts/inter/import.css" rel="stylesheet">
         <link href="https://static.ietf.org/fonts/noto-sans-mono/import.css" rel="stylesheet">
         
-            <link rel="stylesheet" href="https://static.ietf.org/dt/12.43.1/ietf/css/document_html_referenced.css">
+            <link rel="stylesheet" href="https://static.ietf.org/dt/12.44.0/ietf/css/document_html_referenced.css">
             
-            <script type="module" crossorigin="" src="https://static.ietf.org/dt/12.43.1/assets/embedded-d7e31924.js"></script>
-<link href="https://static.ietf.org/dt/12.43.1/assets/create-pinia-singleton-cd118de1.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
-<link href="https://static.ietf.org/dt/12.43.1/assets/Scrollbar-5ab51f85.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
-            <script src="https://static.ietf.org/dt/12.43.1/ietf/js/document_html.js"></script>
-            <script src="https://static.ietf.org/dt/12.43.1/ietf/js/theme.js"></script>
+            <script type="module" crossorigin="" src="https://static.ietf.org/dt/12.44.0/assets/embedded-e5d96b2a.js"></script>
+<link href="https://static.ietf.org/dt/12.44.0/assets/create-pinia-singleton-ff72c7de.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static.ietf.org/dt/12.44.0/assets/Scrollbar-46a6ac88.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+            <script src="https://static.ietf.org/dt/12.44.0/ietf/js/document_html.js"></script>
+            <script src="https://static.ietf.org/dt/12.44.0/ietf/js/theme.js"></script>
         
         <link rel="alternate" type="application/atom+xml" title="Document changes" href="/feed/document-changes/rfc7946/">
         <meta name="description"
@@ -38,16 +38,16 @@
 
 <link rel="apple-touch-icon"
       sizes="180x180"
-      href="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-180.png">
+      href="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-180.png">
 <link rel="icon"
       sizes="32x32"
-      href="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-32.png">
+      href="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-32.png">
 <link rel="icon"
       sizes="16x16"
-      href="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-16.png">
+      href="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon"
-      href="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-mask.svg"
+      href="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-mask.svg"
       color="#ffffff">
 <meta name="msapplication-TileColor"
       content="#ffffff">
@@ -65,7 +65,7 @@
 <meta property="og:description" content="GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents. GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.">
 <meta property="og:type" content="article">
 
-<meta property="og:image" content="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-card.png">
+<meta property="og:image" content="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-card.png">
 <meta property="og:image:alt" content="Logo of the IETF">
 <meta property="article:section" content="IETF - Internet Engineering Task Force">
 <meta property="og:image:type" content="image/png">
@@ -517,7 +517,7 @@
      
      
         
-             src="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-white.svg"
+             src="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-white.svg"
         
      
      >
@@ -527,7 +527,7 @@
      
      
         
-             src="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor.svg"
+             src="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor.svg"
         
      
      >
@@ -2642,7 +2642,7 @@ Butler, et al.               Standards Track                   [Page 28]
      
      
         
-             src="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor-white.svg"
+             src="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor-white.svg"
         
      
      >
@@ -2652,7 +2652,7 @@ Butler, et al.               Standards Track                   [Page 28]
      
      
         
-             src="https://static.ietf.org/dt/12.43.1/ietf/images/ietf-logo-nor.svg"
+             src="https://static.ietf.org/dt/12.44.0/ietf/images/ietf-logo-nor.svg"
         
      
      >
@@ -2838,7 +2838,7 @@ Butler, et al.               Standards Track                   [Page 28]
             </div>
         </div>
     
-<script type="text/javascript">
+<script>
   var _paq = window._paq || [];
   
   _paq.push(['disableCookies']);
@@ -2852,7 +2852,7 @@ Butler, et al.               Standards Track                   [Page 28]
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//analytics.ietf.org/piwik.php?idsite=7" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//analytics.ietf.org/matomo.php?idsite=7" style="border:0;" alt="" /></p></noscript>
 
-    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96642342da227e43',t:'MTc1MzcwMzIwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'966be5fd4d3aa7f3',t:'MTc1Mzc4NDU4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
